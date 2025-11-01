@@ -1,7 +1,7 @@
 # TT-Chat demo
 
 - Open-WebUI demo with [tt-inference-server](https://github.com/tenstorrent/tt-inference-server) for LLM serving and [docling]() and document processing
-- Temporarily using [ollama]() for embedding models
+- Temporarily using [ollama]() for embedding models to run on CPU that enables RAG feature
 
 # Demo
 
