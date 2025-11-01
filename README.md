@@ -116,9 +116,13 @@ exit
 ```
 
 Open the open-webui application via `localhost:8080`, and log in as admin account.
+
 Open 'Admin panel' at the left bottom pane.
+
 Move to 'Settings'->'Documents', and change 'Embedding Model Engine' to 'ollama', and register `http:localhost:11434` as the API Base URL.
+
 Register 'embeddinggemma' as the embedding model.
+
 Save the settings.
 
 
@@ -130,6 +134,9 @@ docker run -d -p 5001:5001 -e DOCLING_SERVE_ENABLE_UI=1 -e DOCLING_SERVE_ARTIFAC
 ```
 
 Open the open-webui application via `localhost:8080`, and log in as admin account.
+
 Open 'Admin panel' at the left bottom pane.
+
 Move to 'Settings'->'Documents', and change 'Content Extraction Engine' to 'Docling', and register `http:localhost:5001` as the Docling Server URL.
+
 Save the settings.
